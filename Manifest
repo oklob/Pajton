@@ -1,0 +1,23 @@
+<activity
+            android:name=".pripremni.activity.PripremaListActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:icon="@mipmap/ic_launcher"
+            android:label="Actors">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".pripremni.activity.PripremaDetail"
+            android:icon="@mipmap/ic_launcher"
+            android:label="Actor Detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pripremni.preferences.PripremaPrefererences"
+            android:label="@string/activity_settings_name"
+            android:parentActivityName=".pripremni.activity.PripremaListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
